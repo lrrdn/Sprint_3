@@ -1,5 +1,6 @@
 login_to_acc_button = ".//button[contains(text(),'Войти в аккаунт')]"  # кнопка "Войти в аккаунт"
 register_button = ".//a[contains(text(),'Зарегистрироваться')]"  # кнопка "Зарегистрироваться"
+forgot_password_button = ".//a[contains(text(),'Восстановить пароль')]"  # кнопка "Зарегистрироваться"
 register_name_input = ".//input[contains(@name,'name')]"  # поле Имя на странице регистрации
 register_email_input = ".//label[contains(text(),'Email')]/following-sibling::*"  # поле Email на странице регистрации
 register_password_input = ".//input[contains(@type,'password')]"  # поле Пароль на странице регистрации
